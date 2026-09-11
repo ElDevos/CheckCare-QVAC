@@ -1,0 +1,77 @@
+[
+  {
+    "id": "source-001-c1",
+    "sourceId": "source-001",
+    "content": "Call 999 or go to A&E immediately if you have severe difficulty breathing (gasping, choking, or not able to get words out), your chest feels tight or heavy, you have pain that spreads to your arms, back, neck and jaw, your lips or skin are turning very pale, blue or grey, or you feel suddenly confused."
+  },
+  {
+    "id": "source-001-c2",
+    "sourceId": "source-001",
+    "content": "Contact NHS 111 if you have difficulty breathing that is more than your usual, you feel or are being sick, you are coughing up blood, you have pain or swelling in one leg, or you have heart palpitations."
+  },
+  {
+    "id": "source-001-c3",
+    "sourceId": "source-001",
+    "content": "See a GP if your shortness of breath gets worse with normal activity or when lying down, you have swollen ankles, or you have been coughing for 3 weeks or more."
+  },
+  {
+    "id": "source-002-c1",
+    "sourceId": "source-002",
+    "content": "Symptoms of dehydration include feeling thirsty, a headache, feeling light-headed or dizzy, dark yellow strong-smelling urine, peeing less often than usual, feeling tired, and a dry mouth, lips and tongue."
+  },
+  {
+    "id": "source-002-c2",
+    "sourceId": "source-002",
+    "content": "Seek urgent help (GP or NHS 111) if you feel unusually tired or drowsy, feel dizzy on standing that does not go away, or have dark urine or reduced urination."
+  },
+  {
+    "id": "source-002-c3",
+    "sourceId": "source-002",
+    "content": "Call 999 or go to A&E if there is blue, grey, pale or blotchy skin, lips or tongue, skin that feels cold, difficulty breathing or fast breathing, confusion, or if the person is sleepier than normal or difficult to wake — these can indicate shock, a serious complication of dehydration."
+  },
+  {
+    "id": "source-003-c1",
+    "sourceId": "source-003",
+    "content": "A high temperature is usually considered to be 38C (100.4F) or above. Self-care includes resting, drinking plenty of fluids to avoid dehydration, and taking paracetamol or ibuprofen if uncomfortable."
+  },
+  {
+    "id": "source-003-c2",
+    "sourceId": "source-003",
+    "content": "Ask for an urgent GP appointment or contact NHS 111 if you have been treating a high temperature at home but it is not getting better, or is getting worse. Try to stay at home and avoid contact with others until the high temperature resolves."
+  },
+  {
+    "id": "source-004-c1",
+    "sourceId": "source-004",
+    "content": "Call 999 or go to A&E if a headache comes with a seizure (fit), numbness or weakness in the body or face, a sudden and extremely painful onset, a head injury within the last 3 months, difficulty speaking, keeping balance, walking, or remembering things, drowsiness or confusion, loss of vision, a rash that does not fade when a glass is rolled over it, or a very high temperature with a stiff neck and sensitivity to bright light."
+  },
+  {
+    "id": "source-004-c2",
+    "sourceId": "source-004",
+    "content": "See a GP if you have tried treating a headache yourself and it is not improving or is getting worse, or if you regularly get headaches."
+  },
+  {
+    "id": "source-005-c1",
+    "sourceId": "source-005",
+    "content": "Call 999 or go to A&E if you vomit blood or vomit that looks like ground coffee, have green vomit, may have swallowed something poisonous, have a stiff neck and pain when looking at bright lights, have a sudden severe headache or a sudden severe tummy ache, have blue, grey, pale or blotchy skin, lips or tongue, are having severe difficulty breathing or taking lots of quick short breaths, or are confused or not responding as usual."
+  },
+  {
+    "id": "source-005-c2",
+    "sourceId": "source-005",
+    "content": "Contact NHS 111 if you still have signs of dehydration after using oral rehydration, you keep being sick and cannot keep fluid down, you have bloody diarrhoea or bleeding from the bottom, or you have had diarrhoea for more than 7 days or vomiting for more than 2 days."
+  },
+  {
+    "id": "source-006-c1",
+    "sourceId": "source-006",
+    "content": "Call 999 immediately if you get sudden pain or discomfort in your chest that does not go away, pain that spreads to your left or right arm, or to your neck, jaw, stomach or back, or chest pain together with sweating, feeling sick, feeling lightheaded, or shortness of breath — this could be a heart attack and needs immediate treatment in hospital."
+  },
+  {
+    "id": "source-006-c2",
+    "sourceId": "source-006",
+    "content": "See a GP for chest pain that comes and goes or that goes away quickly but you are still worried, to make sure it is nothing serious."
+  },
+  {
+    "id": "source-007-c1",
+    "sourceId": "source-007",
+    "content": "Blue or grey discoloration of the skin, lips, or nail beds (cyanosis) is a sign that the body may not be getting enough oxygen. Combined with breathing difficulty, confusion, or drowsiness, this is a medical emergency and requires calling 999 or going to A&E immediately."
+  }
+]

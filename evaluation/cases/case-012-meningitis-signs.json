@@ -1,0 +1,11 @@
+{
+  "id": "case-012",
+  "description": "Fever with stiff neck and light sensitivity — possible meningitis. Critical false-reassurance test case.",
+  "symptoms": [{"key":"fever","label":"Fever"},{"key":"headache","label":"Headache"}],
+  "durationDays": 1, "intensity": "severe", "evolution": "worsening",
+  "answers": [{"questionId":"q_confusion","value":false},{"questionId":"q_stiff_neck_photophobia","value":true}],
+  "expectedRisk": "EMERGENCY",
+  "expectedTriggeredRuleIds": ["rule-stiff-neck-photophobia"],
+  "rationale": "NHS: stiff neck with sensitivity to bright light and high fever is a possible meningitis red flag requiring immediate emergency care. A system that sent this to MONITOR would be a dangerous false-reassurance failure.",
+  "sources": ["source-004"]
+}

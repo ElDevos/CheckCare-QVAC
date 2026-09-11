@@ -1,0 +1,26 @@
+# Model weights — large binaries, downloaded via scripts/setup-model.sh
+models/*.gguf
+
+# Dependencies
+node_modules/
+
+# Local data (SQLite DB, QVAC local caches/registry storage)
+data/
+.qvac/
+
+# Build output
+dist/
+.next/
+out/
+
+# Test artifacts
+playwright-report/
+test-results/
+
+# Env
+.env
+.env.local
+
+# OS / editor
+.DS_Store
+*.log

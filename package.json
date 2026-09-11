@@ -1,0 +1,26 @@
+{
+  "name": "checkcare",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CheckCare — local-first symptom orientation assistant powered by QVAC + MedPsy-1.7B, running entirely on-device.",
+  "license": "Apache-2.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/edge & npm run dev --workspace=apps/web",
+    "dev:edge": "npm run dev --workspace=apps/edge",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=apps/edge && npm run build --workspace=apps/web",
+    "test": "npm run test --workspace=apps/edge",
+    "test:e2e": "npm run test:e2e --workspace=apps/web",
+    "benchmark": "npm run benchmark --workspace=apps/edge",
+    "evaluate": "npm run evaluate --workspace=apps/edge",
+    "ingest-knowledge": "npm run ingest-knowledge --workspace=apps/edge",
+    "setup-model": "bash scripts/setup-model.sh"
+  }
+}

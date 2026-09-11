@@ -1,0 +1,11 @@
+{
+  "id": "case-008",
+  "description": "Mild sore throat for 2 days, no red-flag answers.",
+  "symptoms": [{"key":"sore_throat","label":"Sore throat"}],
+  "durationDays": 2, "intensity": "mild", "evolution": "improving",
+  "answers": [{"questionId":"q_symptom_worsening","value":false}],
+  "expectedRisk": "MONITOR",
+  "expectedTriggeredRuleIds": [],
+  "rationale": "No red-flag criteria present; short duration, mild, improving. Should be MONITOR, never a 'you are fine/healthy' claim.",
+  "sources": []
+}

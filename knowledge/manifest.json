@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-09-10",
+  "sources": [
+    { "id": "source-001", "title": "Shortness of breath — when to get help", "topic": "breathing_difficulty", "source": "NHS (UK National Health Service)", "url": "https://www.nhs.uk/symptoms/shortness-of-breath/" },
+    { "id": "source-002", "title": "Dehydration — symptoms and when to seek help", "topic": "dehydration", "source": "NHS (UK National Health Service)", "url": "https://www.nhs.uk/conditions/dehydration/" },
+    { "id": "source-003", "title": "Fever in adults — self-care and when to get help", "topic": "fever", "source": "NHS (UK National Health Service)", "url": "https://www.nhs.uk/conditions/fever-in-adults/" },
+    { "id": "source-004", "title": "Headaches — red-flag warning signs", "topic": "headache", "source": "NHS (UK National Health Service)", "url": "https://www.nhs.uk/symptoms/headaches/" },
+    { "id": "source-005", "title": "Diarrhoea and vomiting — when to seek help", "topic": "gastrointestinal", "source": "NHS (UK National Health Service)", "url": "https://www.nhs.uk/conditions/diarrhoea-and-vomiting/" },
+    { "id": "source-006", "title": "Chest pain — possible heart attack warning signs", "topic": "chest_pain", "source": "NHS (UK National Health Service)", "url": "https://www.nhs.uk/conditions/chest-pain/" },
+    { "id": "source-007", "title": "Blue or grey skin or lips (cyanosis)", "topic": "breathing_difficulty", "source": "NHS (UK National Health Service)", "url": "https://www.nhs.uk/symptoms/blue-skin-or-lips-cyanosis/" }
+  ]
+}

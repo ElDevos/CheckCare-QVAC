@@ -1,0 +1,11 @@
+{
+  "id": "case-003",
+  "description": "Sudden, extremely severe headache — the worst ever experienced.",
+  "symptoms": [{"key":"headache","label":"Headache"}],
+  "durationDays": 1, "intensity": "severe", "evolution": "worsening",
+  "answers": [{"questionId":"q_thunderclap_headache","value":true}],
+  "expectedRisk": "EMERGENCY",
+  "expectedTriggeredRuleIds": ["rule-thunderclap-headache"],
+  "rationale": "NHS: a sudden, extremely painful headache onset (thunderclap headache) requires calling 999 or going to A&E.",
+  "sources": ["source-004"]
+}

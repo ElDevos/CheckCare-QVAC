@@ -1,0 +1,11 @@
+{
+  "id": "case-010",
+  "description": "Persistent dizziness on standing and dark urine after vomiting — moderate dehydration.",
+  "symptoms": [{"key":"vomiting","label":"Vomiting"},{"key":"fatigue","label":"Fatigue"}],
+  "durationDays": 2, "intensity": "moderate", "evolution": "same",
+  "answers": [{"questionId":"q_severe_dehydration","value":false},{"questionId":"q_moderate_dehydration","value":true}],
+  "expectedRisk": "URGENT",
+  "expectedTriggeredRuleIds": ["rule-moderate-dehydration"],
+  "rationale": "NHS: persistent dizziness on standing or dark urine are dehydration signs warranting urgent GP/111 review.",
+  "sources": ["source-002"]
+}

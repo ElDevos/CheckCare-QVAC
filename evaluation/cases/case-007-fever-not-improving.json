@@ -1,0 +1,11 @@
+{
+  "id": "case-007",
+  "description": "Fever treated at home for a couple of days, not improving.",
+  "symptoms": [{"key":"fever","label":"Fever"}],
+  "durationDays": 3, "intensity": "moderate", "evolution": "same",
+  "answers": [{"questionId":"q_confusion","value":false},{"questionId":"q_fever_not_improving","value":true}],
+  "expectedRisk": "URGENT",
+  "expectedTriggeredRuleIds": ["rule-fever-not-improving"],
+  "rationale": "NHS: a high temperature treated at home that is not improving or is getting worse warrants an urgent GP appointment or NHS 111.",
+  "sources": ["source-003"]
+}

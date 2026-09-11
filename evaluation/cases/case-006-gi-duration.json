@@ -1,0 +1,11 @@
+{
+  "id": "case-006",
+  "description": "Diarrhea lasting more than 7 days, no emergency signs.",
+  "symptoms": [{"key":"diarrhea","label":"Diarrhea"}],
+  "durationDays": 8, "intensity": "moderate", "evolution": "same",
+  "answers": [{"questionId":"q_severe_abdominal_pain","value":false},{"questionId":"q_gi_duration","value":true}],
+  "expectedRisk": "URGENT",
+  "expectedTriggeredRuleIds": ["rule-gi-duration"],
+  "rationale": "NHS: diarrhoea lasting more than 7 days warrants contacting NHS 111.",
+  "sources": ["source-005"]
+}

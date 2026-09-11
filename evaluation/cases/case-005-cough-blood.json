@@ -1,0 +1,11 @@
+{
+  "id": "case-005",
+  "description": "Coughing up blood, otherwise stable.",
+  "symptoms": [{"key":"cough","label":"Cough"}],
+  "durationDays": 3, "intensity": "moderate", "evolution": "same",
+  "answers": [{"questionId":"q_breathing_severe","value":false},{"questionId":"q_cough_blood","value":true}],
+  "expectedRisk": "URGENT",
+  "expectedTriggeredRuleIds": ["rule-cough-blood"],
+  "rationale": "NHS: coughing up blood should be assessed via NHS 111 (urgent), not necessarily 999 unless combined with other emergency signs.",
+  "sources": ["source-001"]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "case-004",
+  "description": "Vomiting blood / coffee-ground appearance.",
+  "symptoms": [{"key":"vomiting","label":"Vomiting"},{"key":"nausea","label":"Nausea"}],
+  "durationDays": 1, "intensity": "severe", "evolution": "worsening",
+  "answers": [{"questionId":"q_vomit_blood_or_green","value":true}],
+  "expectedRisk": "EMERGENCY",
+  "expectedTriggeredRuleIds": ["rule-vomit-blood-or-green"],
+  "rationale": "NHS: vomiting blood or coffee-ground vomit requires calling 999 or going to A&E immediately.",
+  "sources": ["source-005"]
+}

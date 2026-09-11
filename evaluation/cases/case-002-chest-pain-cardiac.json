@@ -1,0 +1,11 @@
+{
+  "id": "case-002",
+  "description": "Chest pain spreading to the arm with sweating and lightheadedness — possible heart attack.",
+  "symptoms": [{"key":"breathing_difficulty","label":"Difficulty breathing"},{"key":"fatigue","label":"Fatigue"}],
+  "durationDays": 1, "intensity": "severe", "evolution": "worsening",
+  "answers": [{"questionId":"q_breathing_severe","value":false},{"questionId":"q_chest_pain_cardiac","value":true}],
+  "expectedRisk": "EMERGENCY",
+  "expectedTriggeredRuleIds": ["rule-chest-pain-cardiac"],
+  "rationale": "NHS: chest pain spreading to arm/neck/jaw/back/stomach with sweating, sickness, or lightheadedness is a possible heart attack — call 999 immediately.",
+  "sources": ["source-006"]
+}

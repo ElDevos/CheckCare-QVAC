@@ -1,0 +1,32 @@
+{
+  "name": "@checkcare/edge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "benchmark": "tsx src/qvac/benchmark.ts",
+    "evaluate": "tsx ../../scripts/evaluate.ts",
+    "ingest-knowledge": "tsx ../../scripts/ingest-knowledge.ts"
+  },
+  "dependencies": {
+    "@checkcare/shared-types": "*",
+    "@checkcare/safety-rules": "*",
+    "@qvac/sdk": "0.19.0",
+    "better-sqlite3": "^11.10.0",
+    "express": "^4.21.2",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.17.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "case-001",
+  "description": "Severe breathing difficulty, gasping, cannot speak full sentences.",
+  "symptoms": [{"key":"breathing_difficulty","label":"Difficulty breathing"},{"key":"cough","label":"Cough"}],
+  "durationDays": 1, "intensity": "severe", "evolution": "worsening",
+  "answers": [{"questionId":"q_breathing_severe","value":true}],
+  "expectedRisk": "EMERGENCY",
+  "expectedTriggeredRuleIds": ["rule-breathing-severe"],
+  "rationale": "NHS: severe difficulty breathing (gasping, choking, unable to speak in full sentences) requires calling 999 or going to A&E immediately.",
+  "sources": ["source-001"]
+}

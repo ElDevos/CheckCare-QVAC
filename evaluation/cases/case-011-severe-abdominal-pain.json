@@ -1,0 +1,11 @@
+{
+  "id": "case-011",
+  "description": "Sudden, severe abdominal pain.",
+  "symptoms": [{"key":"abdominal_pain","label":"Abdominal pain"}],
+  "durationDays": 1, "intensity": "severe", "evolution": "worsening",
+  "answers": [{"questionId":"q_severe_abdominal_pain","value":true}],
+  "expectedRisk": "EMERGENCY",
+  "expectedTriggeredRuleIds": ["rule-severe-abdominal-pain"],
+  "rationale": "NHS: sudden, severe tummy ache requires calling 999 or going to A&E immediately.",
+  "sources": ["source-005"]
+}

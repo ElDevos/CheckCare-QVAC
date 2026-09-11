@@ -1,0 +1,11 @@
+{
+  "id": "case-009",
+  "description": "Fatigue persisting 6 days with no red-flag answers — persistence alone should raise it above MONITOR.",
+  "symptoms": [{"key":"fatigue","label":"Fatigue"}],
+  "durationDays": 6, "intensity": "moderate", "evolution": "same",
+  "answers": [{"questionId":"q_confusion","value":false},{"questionId":"q_chest_pain_cardiac","value":false},{"questionId":"q_severe_dehydration","value":false},{"questionId":"q_moderate_dehydration","value":false}],
+  "expectedRisk": "PROFESSIONAL_EVALUATION",
+  "expectedTriggeredRuleIds": [],
+  "rationale": "No NHS red-flag criteria triggered, but symptom persistence of 5+ days is treated by the Safety Engine as warranting professional evaluation rather than open-ended monitoring.",
+  "sources": []
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2026-09-10T06:23:50.799Z",
+    "device": "Apple M2 Pro",
+    "os": "macOS",
+    "architecture": "arm64",
+    "model": "MedPsy-1.7B",
+    "quantization": "Q4_K_M",
+    "modelLoadTimeMs": 1263,
+    "inputTokens": 61,
+    "outputTokens": 256,
+    "timeToFirstTokenMs": 96,
+    "generationTimeMs": 2549,
+    "tokensPerSecond": 105.39963134832067,
+    "backendDevice": "gpu"
+  },
+  {
+    "timestamp": "2026-09-10T06:23:53.306Z",
+    "device": "Apple M2 Pro",
+    "os": "macOS",
+    "architecture": "arm64",
+    "model": "MedPsy-1.7B",
+    "quantization": "Q4_K_M",
+    "modelLoadTimeMs": 0,
+    "inputTokens": 52,
+    "outputTokens": 256,
+    "timeToFirstTokenMs": 62,
+    "generationTimeMs": 2507,
+    "tokensPerSecond": 105.67634719798752,
+    "backendDevice": "gpu"
+  },
+  {
+    "timestamp": "2026-09-10T06:23:55.817Z",
+    "device": "Apple M2 Pro",
+    "os": "macOS",
+    "architecture": "arm64",
+    "model": "MedPsy-1.7B",
+    "quantization": "Q4_K_M",
+    "modelLoadTimeMs": 0,
+    "inputTokens": 51,
+    "outputTokens": 256,
+    "timeToFirstTokenMs": 61,
+    "generationTimeMs": 2510,
+    "tokensPerSecond": 105.51270933556668,
+    "backendDevice": "gpu"
+  }
+]
